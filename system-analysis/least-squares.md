@@ -107,6 +107,40 @@ Such that the $$a_1 , a_2$$ coefficients function as the coefficients that _best
 
 This same analysis can be further applied to multivariate constraint equations, as long as it follows the above pattern.
 
+## Implementation
+
+### Numpy Implementation
+
+{% embed url="https://numpy.org/doc/stable/reference/generated/numpy.linalg.lstsq.html" %}
+
+### Python - Linear Implementation
+
+```python
+def least_squares_line(points):
+    """
+    Least Squares fit to a sloped line with constant.
+    alpha^ = (A^T . A)^-1 . A^T . b
+    -----------
+    Parameters:
+    points (list) - list of 2 element lists containing [val0, val1]
+    """
+    A = np.empty((len(points), 2))
+    b = np.empty((len(points), 1))
+
+    for i, point in enumerate(points):
+        # A matrix row: [x point, 1] (since multiplied by constant)
+        A[i][0] = point[0]
+        A[i][1] = 1
+        # b vector row: [y point]
+        b[i] = point[1]
+        
+    # alpha^ vector: [slope, constant].T
+    alpha_vector, residuals, rank, s = np.linalg.lstsq(A, b, rcond=None)
+
+    # return [slope, constant] from the least squares fit
+    return (alpha_vector, residuals)
+```
+
 
 
 
