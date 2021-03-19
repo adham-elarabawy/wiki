@@ -143,7 +143,7 @@ def least_squares_line(points):
 
 {% file src="../.gitbook/assets/note23.pdf" caption="EECS16A Least Squares Note \(23\)" %}
 
-{% embed url="https://drive.google.com/file/d/1Xrsb7kgqDUShEflZnkoGN\_aHej2V8ZSM/view?usp=sharing" caption="My annotated 16A notes" %}
+{% embed url="https://drive.google.com/file/d/1Xrsb7kgqDUShEflZnkoGN\_aHej2V8ZSM/view?usp=sharing" caption="My annotated EECS16A notes" %}
 
 
 
