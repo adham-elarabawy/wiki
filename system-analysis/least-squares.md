@@ -23,7 +23,7 @@ As you can see, the computation of the $$\vec{x}$$vector is dependent on us bein
 #### Intuition behind limitations
 
 * At the end of the day, the limitation above on  $$(A^T \cdot A)$$being full-rank essentially boil down to us having an _over-constrained_ system, and not an _under-constrained_ system. 
-* On an ever lower level, this means that $$A$$must have at least as many rows than it has columns.
+* On an even lower level, $$A$$must have at least as many rows than it has columns.
 
 ## Application
 
