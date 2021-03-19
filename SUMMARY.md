@@ -6,3 +6,7 @@
 
 * [Least Squares](system-analysis/least-squares.md)
 
+## Machine Learning
+
+* [Resources](machine-learning/resources.md)
+
