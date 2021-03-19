@@ -141,6 +141,10 @@ def least_squares_line(points):
     return (alpha_vector, residuals)
 ```
 
+{% file src="../.gitbook/assets/note23.pdf" caption="EECS16A Least Squares Note \(23\)" %}
+
+{% embed url="https://drive.google.com/file/d/1Xrsb7kgqDUShEflZnkoGN\_aHej2V8ZSM/view?usp=sharing" caption="My annotated 16A notes" %}
+
 
 
 

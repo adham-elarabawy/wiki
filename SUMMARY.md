@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Adham's Wiki](README.md)
 
 ## System Analysis
 
