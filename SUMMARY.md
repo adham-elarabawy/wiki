@@ -29,13 +29,14 @@
 ## Machine Learning
 
 * [Intro](machine-learning/resources.md)
-* [Tools](machine-learning/tools/README.md)
-  * [Keras](machine-learning/tools/keras.md)
-  * [PyTorch](machine-learning/tools/pytorch.md)
 * [Bias & Variance](machine-learning/bias-and-variance.md)
 * [Decision Trees](machine-learning/decision-trees.md)
 * [K-Nearest Neighbors](machine-learning/k-nearest-neighbors.md)
 * [SVM Kernel](machine-learning/svm-kernel.md)
+* [PyTorch](machine-learning/pytorch/README.md)
+  * [Tensors](machine-learning/pytorch/tensors.md)
+* [Keras](machine-learning/keras.md)
+* [Backward Propagation](machine-learning/backward-propagation.md)
 
 ## Math
 
