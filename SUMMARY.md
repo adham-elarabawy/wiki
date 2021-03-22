@@ -4,6 +4,10 @@
 
 ## Engineering
 
+* [Intro](engineering/intro.md)
+* [Tools](engineering/tools/README.md)
+  * [Anaconda](engineering/tools/anaconda.md)
+  * [Numpy](engineering/tools/numpy.md)
 * [Least Squares](engineering/least-squares.md)
 * [Linear Algebra](engineering/linear-algebra/README.md)
   * [Eigenvalues & Eigenvectors](engineering/linear-algebra/eigenvalues-and-eigenvectors.md)
@@ -24,9 +28,8 @@
 
 ## Machine Learning
 
-* [Resources](machine-learning/resources.md)
+* [Intro](machine-learning/resources.md)
 * [Tools](machine-learning/tools/README.md)
-  * [Numpy](machine-learning/tools/numpy.md)
   * [Keras](machine-learning/tools/keras.md)
   * [PyTorch](machine-learning/tools/pytorch.md)
 * [Bias & Variance](machine-learning/bias-and-variance.md)
@@ -36,6 +39,7 @@
 
 ## Math
 
+* [Intro](math/intro.md)
 * [Graph Theory](math/graph-theory.md)
 * [Stable Matching](math/stable-matching.md)
 * [Modular Arithmetic](math/modular-arithmetic.md)

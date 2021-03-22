@@ -2,7 +2,7 @@
 description: Base-level resources and disclaimers
 ---
 
-# Resources
+# Intro
 
 Currently, the majority of the information gathered in this section was learned through the MLAB \(Machine Learning @ Berkeley\) NMEP program.
 
