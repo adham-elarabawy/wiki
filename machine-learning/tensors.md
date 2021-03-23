@@ -4,7 +4,7 @@
 
 Tensors are just data containers. At their core, they're just a generalization of matrices to an n-dimensional space.
 
-![Distinction between various data containers.](../../.gitbook/assets/image%20%281%29.png)
+![Distinction between various data containers.](../.gitbook/assets/image%20%281%29.png)
 
 ### Tensor Initialization
 

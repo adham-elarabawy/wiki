@@ -30,7 +30,9 @@ $$Z^{(L)}$$is the result of multiplying the current neuron's weight \($$ w^{(L)}
 
 #### Computing Relevant Derivatives
 
-So, how do we actually find the problematic weights? We compute the partial derivatives for each weight with respect to the cost function. 
+So, how do we actually decide which weights to change _by how much_? We compute the partial derivatives for each weight with respect to the cost function. More intuitively, we are finding how much each weight contributes to the resultant error \(as computed by the cost function\).
+
+_Side Note:_ Even though I'm saying "weight", this also applies to biases, since those are also tuned by the training process. The only difference is that the chain-rule partial derivatives are slightly simpler for biases.
 
 For instance, the partial derivative for the weight \($$w^{(L)}$$\) in the diagram above is:
 
@@ -46,7 +48,7 @@ All of this computation is just to find the derivative of the cost function with
 
 The full cost function averages all the resultant costs for all the training samples, which means that the chain-rule derivative derived above is actually just one of the many samples that are averaged to compute the derivative of the full cost function _for that single weight_.
 
-This tedious process is done for all the weights & biases in the neural network.
+This tedious process is done for all the weights & biases in the neural network for each training iteration, which is a little glimpse of what makes the training process so expensive \(computationally/time\).
 
 #### TODO: Add insight about more complex networks with multiple output neurons 
 

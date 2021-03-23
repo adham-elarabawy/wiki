@@ -33,8 +33,9 @@
 * [Decision Trees](machine-learning/decision-trees.md)
 * [K-Nearest Neighbors](machine-learning/k-nearest-neighbors.md)
 * [SVM Kernel](machine-learning/svm-kernel.md)
-* [PyTorch](machine-learning/pytorch/README.md)
-  * [Tensors](machine-learning/pytorch/tensors.md)
+* [PyTorch](machine-learning/pytorch.md)
+* [Tensors](machine-learning/tensors.md)
+* [Training](machine-learning/training.md)
 * [Keras](machine-learning/keras.md)
 * [Backward Propagation](machine-learning/backward-propagation.md)
 
