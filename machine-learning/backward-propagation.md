@@ -52,6 +52,8 @@ This tedious process is done for all the weights & biases in the neural network 
 
 #### TODO: Add insight about more complex networks with multiple output neurons 
 
+Now that we know how much each weight and bias relatively contributes to the cost function, how to we adjust them such that the cost/loss function is minimized? This i 
+
 ### Credit
 
 Most of the information presented here was pretty much copied from [3Blue1Brown's Backpropagation calculus video](https://www.youtube.com/watch?v=tIeHLnjs5U8&ab_channel=3Blue1Brown).

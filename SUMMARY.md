@@ -38,6 +38,8 @@
 * [Training](machine-learning/training.md)
 * [Keras](machine-learning/keras.md)
 * [Backward Propagation](machine-learning/backward-propagation.md)
+* [Optimizers](machine-learning/optimizers.md)
+* [Cool Intuition](machine-learning/cool-intuition.md)
 
 ## Math
 
