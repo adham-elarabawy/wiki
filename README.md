@@ -6,6 +6,8 @@ description: A landing page for my wiki
 
 ![](.gitbook/assets/banner.png)
 
+Relevant Links: [portfolio website](www.adham-e.dev), [linkedin](https://www.linkedin.com/in/adham-elarabawy/), [youtube channel](https://www.youtube.com/c/AdhamElarabawy)
+
 This wiki acts as a culmination of my formalized notes for:
 
 * classes
