@@ -18,7 +18,7 @@ PyTorch serves two purposes:
 
 ### Simple \(Shallow\) Model
 
-```bash
+```python
 class Model(nn.Module):
     
     def __init__(self):
@@ -48,7 +48,7 @@ optimizer = torch.optim.Adam(model.parameters())
 
 ### Training Loop
 
-```bash
+```python
 # Training Loop
 epochs = 10
 
@@ -78,7 +78,7 @@ for epoch in range(epochs):
 
 ### Evaluating Model
 
-```bash
+```python
 #CALCULATE TEST ACCURACY
 
 test_batch = next(iter(test_dataloader))
@@ -90,7 +90,7 @@ print ("Test Accuracy {0}".format(test_accuracy))
 
 ### Saving/Loading a model
 
-```bash
+```python
 #Saving model to disk
 torch.save(model.state_dict(), "./weights")
 
