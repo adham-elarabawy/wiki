@@ -10,7 +10,7 @@ Backpropagation is used in the training process of a neural network, meaning tha
 
 ### Pipeline
 
-![](../../.gitbook/assets/image%20%283%29.png)
+![](../../.gitbook/assets/image%20%282%29.png)
 
 The diagram above represents the last layer in a simple 3-layer neural network, where each layer only has 1 neuron. 
 
@@ -38,11 +38,11 @@ For instance, the partial derivative for the weight \($$w^{(L)}$$\) in the diagr
 
 $$\frac{\partial C_0}{\partial w^{(L)}} = \frac{\partial z^{(L)}}{\partial w^{(L)}} \cdot \frac{\partial a^{(L)}}{\partial z^{(L)}} \cdot \frac{\partial C_0}{\partial a^{(L)}}$$
 
-![](../../.gitbook/assets/image%20%282%29.png)
+![](../../.gitbook/assets/image%20%287%29.png)
 
 Where each partial derivative in the equations above are governed by:
 
-![](../../.gitbook/assets/image%20%285%29.png)
+![](../../.gitbook/assets/image%20%288%29.png)
 
 All of this computation is just to find the derivative of the cost function with respect to a _single_ weight for a _specific_ training example. 
 

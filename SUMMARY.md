@@ -38,6 +38,7 @@
   * [PyTorch](machine-learning/neural-networks/pytorch.md)
   * [Keras](machine-learning/neural-networks/keras.md)
   * [Tensors](machine-learning/neural-networks/tensors.md)
+  * [Activation Functions](machine-learning/neural-networks/activation-functions.md)
   * [Training](machine-learning/neural-networks/training.md)
   * [Backward Propagation](machine-learning/neural-networks/backward-propagation.md)
   * [Optimizers](machine-learning/neural-networks/optimizers.md)
