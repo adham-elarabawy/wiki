@@ -43,6 +43,7 @@
   * [Training](machine-learning/neural-networks/training.md)
   * [Backward Propagation](machine-learning/neural-networks/backward-propagation.md)
   * [Optimizers](machine-learning/neural-networks/optimizers.md)
+  * [Softmax](machine-learning/neural-networks/softmax.md)
 * [Convolutional Neural Networks](machine-learning/convolutional-neural-networks/README.md)
   * [Convolutions](machine-learning/convolutional-neural-networks/convolutions.md)
   * [Max Pooling](machine-learning/convolutional-neural-networks/max-pooling.md)
