@@ -10,7 +10,7 @@ $$
 s(x) = \frac{1}{1+e^{-x}} \quad tanh(x) = \frac{2}{1+e^{-2x}} -1
 $$
 
-![Red - Sigmoid, Blue - Tanh](../../.gitbook/assets/image%20%284%29.png)
+![Red - Sigmoid, Blue - Tanh](../../.gitbook/assets/image%20%286%29.png)
 
 | Advantages | Disadvantages |
 | :--- | :--- |
@@ -21,5 +21,19 @@ $$
 
 Tanh is very similar to Sigmoid, the main difference is that Tanh has stronger gradients.
 
+### ReLU \(Rectified Linear Unit\)
 
+$$
+A(x) = max(0, x)
+$$
+
+![](../../.gitbook/assets/image%20%282%29.png)
+
+
+
+| Advantages | Disadvantages |
+| :--- | :--- |
+| Nonlinear | Unbounded \(Activation can blow up\) |
+| Sparse activation \(some weights will be initialized to 0 activation due to negative values, which makes network less dense\) | Dying ReLU Problem \(when a weight gets stuck in the flat portion of the activation function\). Neurons just "die" and become unresponsive to changes in the error/input. |
+| Less computationally expensive |  |
 

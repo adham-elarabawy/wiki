@@ -25,6 +25,7 @@
 * [System ID](engineering/system-id.md)
 * [Controllability](engineering/controllability.md)
 * [Orthonormalization](engineering/orthonormalization.md)
+* [Principal Component Analysis](engineering/principal-component-analysis.md)
 
 ## Machine Learning
 
@@ -42,6 +43,10 @@
   * [Training](machine-learning/neural-networks/training.md)
   * [Backward Propagation](machine-learning/neural-networks/backward-propagation.md)
   * [Optimizers](machine-learning/neural-networks/optimizers.md)
+* [Convolutional Neural Networks](machine-learning/convolutional-neural-networks/README.md)
+  * [Convolutions](machine-learning/convolutional-neural-networks/convolutions.md)
+  * [Max Pooling](machine-learning/convolutional-neural-networks/max-pooling.md)
+* [Autoencoders](machine-learning/autoencoders.md)
 * [Cool Intuition](machine-learning/cool-intuition.md)
 
 ## Math
