@@ -14,7 +14,7 @@ Intuitively, an autoencoder can act like an unsupervised version of [PCA \(princ
 
 ### Denoising Autoencoder Example
 
-A denoising autoencoder works by applying a noise mask on the input data, then training it with a loss computed on the original image, which forces the encoder to capture the true features \(and avoid noise\). The result is a model that can take in a noisy image and spew out a lower-dimensional representation \(latent space representation\) of the true image, which can then be reconstructed using the `decoder` to result in a close-to-original _denoised_ output.
+A denoising autoencoder works by applying a noise mask on the input data, then training it with a loss computed with reference to the original \(un-noised\) image, which forces the encoder to capture the true features \(and avoid noise\). The result is a model that can take in a noisy image and spew out a lower-dimensional representation \(latent space representation\) of the true image, which can then be reconstructed using the `decoder` to result in a close-to-original _denoised_ output.
 
 Here is an example of the results from a denoising autoencoder, implemented [here](https://github.com/adham-elarabawy/playground/blob/master/machine-learning/autoencoder/autoencoder.py). 
 
