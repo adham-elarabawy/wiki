@@ -59,6 +59,7 @@
 * [Modular Arithmetic](math/modular-arithmetic.md)
 * [LaGrange Interpolation](math/polynomials.md)
 * [Algorithms](math/algorithms/README.md)
+  * [SHA-1 \(Secure Hash 1\)](math/algorithms/sha-1-secure-hash-1.md)
   * [Stable Matching](math/algorithms/stable-matching.md)
   * [RSA Encryption](math/algorithms/rsa-encryption.md)
 * [Complex Numbers](math/complex-numbers.md)
