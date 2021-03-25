@@ -8,7 +8,7 @@ description: Approximate solutions to linear systems
 
 It is extremely improbable that a fully-defined full-rank system and raw measurements will result in an exact solution. It is often the case that the equations we receive may be corrupted slightly by noise. When we have a large number of equations, the result is an inconsistent system, where no $$\vec{x}$$ exists that satisfies all the equations exactly. 
 
-![](../.gitbook/assets/image.png)
+![](../../.gitbook/assets/image.png)
 
 Each row in $$A$$represents a constraint equation. 
 
@@ -141,7 +141,7 @@ def least_squares_line(points):
     return (alpha_vector, residuals)
 ```
 
-{% file src="../.gitbook/assets/note23.pdf" caption="EECS16A Least Squares Note \(23\)" %}
+{% file src="../../.gitbook/assets/note23.pdf" caption="EECS16A Least Squares Note \(23\)" %}
 
 {% embed url="https://drive.google.com/file/d/1Xrsb7kgqDUShEflZnkoGN\_aHej2V8ZSM/view?usp=sharing" caption="My annotated EECS16A notes" %}
 

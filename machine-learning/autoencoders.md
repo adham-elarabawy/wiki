@@ -10,7 +10,7 @@ Once the model is trained, it can be split up into the `encoder` and the `decode
 
 They're extremely useful in being able to compress high-dimensional data into lower \(more fundamental\) dimensions, which is a notion that lends itself very nicely to image segmentation and data compression.
 
-Intuitively, an autoencoder can act like an unsupervised version of [PCA \(principal component analysis\)](../engineering/principal-component-analysis.md).
+Intuitively, an autoencoder can act like an unsupervised version of [PCA \(principal component analysis\)](../engineering/system-analysis/principal-component-analysis.md).
 
 ### Denoising Autoencoder Example
 
