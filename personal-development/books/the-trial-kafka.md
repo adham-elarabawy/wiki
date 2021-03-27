@@ -1,6 +1,6 @@
 # The Trial \(Kafka\)
 
-### My Thoughts
+### Initial Thoughts
 
 Reading _The Trial_ was frustrating. Besides Kafka's seemingly mellow writing \(which can reasonably be attributed to translation nuances\) and the overall absurdity framing the entire book, I was troubled by the similarities I found between myself and 'K.'.
 
@@ -23,4 +23,12 @@ I'm not saying he deserved to be shot down -- that's painfully cruel. But he's a
 I don't think it's actually all that sad. I won't speak for other people, but I know I definitely spend a good amount of time contemplating retrospectively -- sometimes thinking about how different my life would be if I had changed a single action in the past. Although, I'm generally thinking about that in a curious manner, not a melancholy one.
 
 I like how Kafke sublty and elegantly emphasized time's nonlinearity in this page though. He goes from off-handedly mentioning growing old "while\[-ing\] away lengthening days" to K.'s concerns about wasting away the most valuable time of his life writing a petition. +1 on that feeling.
+
+### Conclusion
+
+I'm honestly a bit tentative to come to a definitive conclusion about this book. It almost feels like I'm tainting the canvas that Kafka elegantly **smeared** with his broad brush. Although, I don't think Kafka will mind. If anything, I think my conclusion urges me to not care what Kafka thinks.
+
+
+
+
 
