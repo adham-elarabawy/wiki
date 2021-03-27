@@ -26,9 +26,11 @@ I like how Kafke sublty and elegantly emphasized time's nonlinearity in this pag
 
 ### Conclusion
 
-I'm honestly a bit tentative to come to a definitive conclusion about this book. It almost feels like I'm tainting the canvas that Kafka elegantly **smeared** with his broad brush. Although, I don't think Kafka will mind. If anything, I think my conclusion urges me to not care what Kafka thinks.
+I'm honestly a bit tentative to come to a definitive conclusion about this book. It almost feels like I'm tainting the canvas that Kafka elegantly **smeared** with his broad brush. Although, I don't think Kafka will mind. If anything, I think my conclusion urges me to not care what Kafka thinks. 
 
-
+{% hint style="info" %}
+This is purposely vague because I really can't wrap my head around a proper conclusion, not because I'm trying to sound mysterious
+{% endhint %}
 
 
 
