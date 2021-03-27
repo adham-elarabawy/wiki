@@ -22,7 +22,7 @@ I'm not saying he deserved to be shot down -- that's painfully cruel. But he's a
 
 I don't think it's actually all that sad. I won't speak for other people, but I know I definitely spend a good amount of time contemplating retrospectively -- sometimes thinking about how different my life would be if I had changed a single action in the past. Although, I'm generally thinking about that in a curious manner, not a melancholy one.
 
-I like how Kafke sublty and elegantly emphasized time's nonlinearity in this page though. He goes from off-handedly mentioning growing old "while\[-ing\] away lengthening days" to K.'s concerns about wasting away the most valuable time of his life writing a petition. +1 on that feeling.
+I like how Kafka sublty and elegantly emphasized time's nonlinearity in this page though. He goes from off-handedly mentioning growing old "while\[-ing\] away lengthening days" to K.'s concerns about wasting away the most valuable time of his life writing a petition. +1 on that feeling.
 
 ### Conclusion
 
