@@ -26,9 +26,11 @@ This album is definitely one to listen to when I have someone in mind. Some of t
 
 Favorite Songs \(no order\):
 
-* V. 3005 - Beach Picnic Version
-* Late Night in Kauai
 * Pop Thieves \(Make It Feel Good\)
+* V. 3005 - Beach Picnic Version
+* Sober
+
+I can't wait to play **Pop Thieves** for someone who deserves the lyrics.
 
 ### Freestyle
 
