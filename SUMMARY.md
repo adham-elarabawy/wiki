@@ -54,7 +54,7 @@
 
 * [Intro](math/intro.md)
 * [Graph Theory](math/graph-theory.md)
-* [Probability Theory](math/probability.md)
+* [Discrete Probability](math/probability.md)
 * [Modular Arithmetic](math/modular-arithmetic.md)
 * [LaGrange Interpolation](math/polynomials.md)
 * [Algorithms](math/algorithms/README.md)
