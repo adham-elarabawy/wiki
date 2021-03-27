@@ -26,6 +26,10 @@ Oh my god is this song an absolute gem. The beat is so simple and gives Smino so
 
 The beat. His cadence. The production. The lyrics. The adlibs. Everything works perfectly in unison to get the song's theme across. This is the level of cohesiveness that I thoroughly appreciate. amazing.
 
+### Runnin
+
+Same notes as [Oxygen](smino.md#oxygen), but this time for running instead of breathing. amazing.
+
 ### Ciabatta
 
 This is a pretty old one, so I didn't expect Smino to have a refined sound. I'm not a big fan of the beat, but it's refreshing to see how much Smino has grown over time, and how much of a difference good production makes. I'll give this to him though: the chorus is absurdly catchy.
