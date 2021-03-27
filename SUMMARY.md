@@ -71,8 +71,5 @@
 * [Music](personal-development/music/README.md)
   * [Childish Gambino](personal-development/music/childish-gambino.md)
   * [Smino](personal-development/music/smino.md)
-  * [Frank Ocean](personal-development/music/frank-ocean.md)
-  * [Kendrick Lamar](personal-development/music/kendrick-lamar.md)
-  * [J. Cole](personal-development/music/j.-cole.md)
   * [MF Doom](personal-development/music/mf-doom.md)
 
