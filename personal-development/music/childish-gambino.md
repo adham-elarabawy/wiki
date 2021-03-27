@@ -2,7 +2,7 @@
 
 {% embed url="https://youtu.be/pmwkdXysspU" caption="Listen to this cover" %}
 
-### My final thoughts
+### My Final Thoughts
 
 Childish Gambino is among my top 10 artists of all time. His range is genuinely impressive \(rapping, acting, soulful singing, humor\). Whenever he releases a new project, I'm not quite sure which facet of Donald Glover I'm going to get -- but I'm always sure I'll be \(happily\) intellectually stimulated. 
 
