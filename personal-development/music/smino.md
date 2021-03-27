@@ -2,7 +2,7 @@
 
 ### My Final Thoughts
 
-My most listened to song of 2020 was Smino's _Amphetamine_. Smino's songs have this quadfecta of perfect production, seamless flow, confusingly satisfying cadence, and unique voice. I honestly can't get enough of his music. Although. I do tend to like **blkswn** and all his discography that predates it more than his more recent stuff.
+My most listened to song of 2020 was Smino's _Amphetamine_. Smino's songs have this quadfecta of perfect production, seamless flow, confusingly satisfying cadence, and unique voice. I honestly can't get enough of his music. Although, I do tend to like **blkswn** and all his discography that predates it more than his more recent stuff.
 
 ### blkswn
 
