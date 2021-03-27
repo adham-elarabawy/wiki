@@ -2,7 +2,7 @@
 
 ### My final thoughts
 
- MF Doom has always been one of those artists whose discography I never really delved into despite knowing about them for a while. I finally invested some time to give some of his songs a try, and I was very pleasantly surprised. As you'll likely be able to tell from the song reviews below, I particularly enjoyed his consistent rap cadence, but didn't necessarily find myself coming back to the songs with especially weird beats/production. Regardless, I can easily understand why he was considered to be so influential to the current state of the music industry right now \(and I can certainly appreciate it\). Rest in peace.
+ MF Doom has always been one of those artists whose discography I never really delved into despite knowing about them for a while. I finally invested some time to give some of his songs a try \(with the help of @Sarah Kadous\), and I was very pleasantly surprised. As you'll likely be able to tell from the song reviews below, I particularly enjoyed his consistent rap cadence, but didn't necessarily find myself coming back to the songs with especially weird beats/production. Regardless, I can easily understand why he was considered to be so influential to the current state of the music industry right now \(and I can certainly appreciate it\). Rest in peace.
 
 ### Relevant Playlist
 
