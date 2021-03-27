@@ -31,7 +31,6 @@
 ## Machine Learning
 
 * [Intro](machine-learning/resources.md)
-* [Bias & Variance](machine-learning/bias-and-variance.md)
 * [Classical ML](machine-learning/classical-ml/README.md)
   * [SVM Kernel](machine-learning/classical-ml/svm-kernel.md)
   * [K-Nearest Neighbors](machine-learning/classical-ml/k-nearest-neighbors.md)
