@@ -31,7 +31,10 @@
 ## Machine Learning
 
 * [Intro](machine-learning/resources.md)
+* [Fundamentals](machine-learning/fundamentals.md)
 * [Classical ML](machine-learning/classical-ml/README.md)
+  * [Ridge Regression](machine-learning/classical-ml/ridge-regression.md)
+  * [Gradient Descent](machine-learning/classical-ml/gradient-descent.md)
   * [SVM Kernel](machine-learning/classical-ml/svm-kernel.md)
   * [K-Nearest Neighbors](machine-learning/classical-ml/k-nearest-neighbors.md)
   * [Decision Trees](machine-learning/classical-ml/decision-trees.md)
@@ -43,10 +46,11 @@
   * [Training](machine-learning/neural-networks/training.md)
   * [Backward Propagation](machine-learning/neural-networks/backward-propagation.md)
   * [Optimizers](machine-learning/neural-networks/optimizers.md)
-  * [Softmax](machine-learning/neural-networks/softmax.md)
 * [Convolutional Neural Networks](machine-learning/convolutional-neural-networks/README.md)
   * [Convolutions](machine-learning/convolutional-neural-networks/convolutions.md)
   * [Max Pooling](machine-learning/convolutional-neural-networks/max-pooling.md)
+* [Softmax](machine-learning/softmax.md)
+* [Cross Entropy Loss](machine-learning/cross-entropy-loss.md)
 * [Autoencoders](machine-learning/autoencoders.md)
 * [Cool Intuition](machine-learning/cool-intuition.md)
 

@@ -16,5 +16,5 @@ It can be prohibitively computationally expensive with a large number of classes
 
 ### Softmax vs Argmax
 
-Why use softmax instead of just an argmax function -- especially since that's all we really care about during inference? The softmax function was developed to be a smooth/differentiable alternative to the argmax function, for use with [backpropagation](backward-propagation.md). During inference, the softmax layer is often switched out for an argmax function for quicker computation.
+Why use softmax instead of just an argmax function -- especially since that's all we really care about during inference? The softmax function was developed to be a smooth/differentiable alternative to the argmax function, for use with [backpropagation](neural-networks/backward-propagation.md). During inference, the softmax layer is often switched out for an argmax function for quicker computation.
 
