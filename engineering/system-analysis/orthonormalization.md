@@ -16,7 +16,7 @@ Then, note that the inverse of a diagonal matrix can be easily optimized via the
 
 #### Proof
 
-![For an orthonormal matrix Q.](../../.gitbook/assets/image%20%2814%29.png)
+![For an orthonormal matrix Q.](../../.gitbook/assets/image%20%2816%29.png)
 
 ### Orthonormal Definition
 
@@ -43,6 +43,8 @@ Gram Schmidt is a procedure that takes a list of linearly independent vectors an
 $$
 \vec{q_k} = \frac{\vec{S_k} - \sum_{l=1}^{k-1}\vec{q_l}(\vec{q_l}^T\vec{S_k})}{||\vec{S_k} - \sum_{l=1}^{k-1}\vec{q_l}(\vec{q_l}^T\vec{S_k})||}
 $$
+
+![](../../.gitbook/assets/image%20%2814%29.png)
 
 
 
