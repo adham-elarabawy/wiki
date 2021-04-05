@@ -6,7 +6,7 @@
 
 * [Intro](engineering/intro.md)
 * [System Analysis](engineering/system-analysis/README.md)
-  * [Orthonormalization](engineering/system-analysis/orthonormalization.md)
+  * [Gram-Schmidt Orthonormalization](engineering/system-analysis/orthonormalization.md)
   * [Controllability](engineering/system-analysis/controllability.md)
   * [Principal Component Analysis](engineering/system-analysis/principal-component-analysis.md)
   * [System ID](engineering/system-analysis/system-id.md)
