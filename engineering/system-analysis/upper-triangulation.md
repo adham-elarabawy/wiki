@@ -14,3 +14,5 @@ Although intuitive, the problem with this approach is that it relies on the A ma
 
 I want a solution that works for all matrices, which would be able to solve arbitrary systems of coupled differential equations.
 
+{% embed url="https://eecs16b.org/notes/sp21/note11.pdf" %}
+

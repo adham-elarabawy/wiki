@@ -25,7 +25,7 @@ A set of vectors is orthonormal if all the vectors are mutually orthogonal to ea
 #### Useful Properties
 
 $$
-Q^TQ=QQ^T=I=Q^T=Q^{-1}
+Q^TQ=QQ^T=I \Rightarrow Q^T=Q^{-1}
 $$
 
 ### Orthonormalization Procedure
