@@ -56,18 +56,18 @@
 * [Autoencoders](machine-learning/autoencoders.md)
 * [Cool Intuition](machine-learning/cool-intuition.md)
 
-## Math
+## Computer Science <a id="compsci"></a>
 
-* [Intro](math/intro.md)
-* [Graph Theory](math/graph-theory.md)
-* [Discrete Probability](math/probability.md)
-* [Modular Arithmetic](math/modular-arithmetic.md)
-* [LaGrange Interpolation](math/polynomials.md)
-* [Algorithms](math/algorithms/README.md)
-  * [SHA-1 \(Secure Hash 1\)](math/algorithms/sha-1-secure-hash-1.md)
-  * [Stable Matching](math/algorithms/stable-matching.md)
-  * [RSA Encryption](math/algorithms/rsa-encryption.md)
-* [Complex Numbers](math/complex-numbers.md)
+* [Intro](compsci/intro.md)
+* [Graph Theory](compsci/graph-theory.md)
+* [Discrete Probability](compsci/probability.md)
+* [Modular Arithmetic](compsci/modular-arithmetic.md)
+* [LaGrange Interpolation](compsci/polynomials.md)
+* [Algorithms](compsci/algorithms/README.md)
+  * [SHA-1 \(Secure Hash 1\)](compsci/algorithms/sha-1-secure-hash-1.md)
+  * [Stable Matching](compsci/algorithms/stable-matching.md)
+  * [RSA Encryption](compsci/algorithms/rsa-encryption.md)
+* [Complex Numbers](compsci/complex-numbers.md)
 
 ## Personal Development
 
