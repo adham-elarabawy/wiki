@@ -29,6 +29,7 @@
   * [Op-Amps](engineering/circuits/op-amps.md)
 * [Applied](engineering/applied/README.md)
   * [Trilateration & GPS](engineering/applied/trilateration-and-gps.md)
+* [Complex Numbers](engineering/complex-numbers.md)
 
 ## Machine Learning
 
@@ -59,6 +60,8 @@
 ## Computer Science <a id="compsci"></a>
 
 * [Intro](compsci/intro.md)
+* [CS Theory](compsci/cs-theory/README.md)
+  * [Computability](compsci/cs-theory/computability.md)
 * [Graph Theory](compsci/graph-theory.md)
 * [Discrete Probability](compsci/probability.md)
 * [Modular Arithmetic](compsci/modular-arithmetic.md)
@@ -67,7 +70,6 @@
   * [SHA-1 \(Secure Hash 1\)](compsci/algorithms/sha-1-secure-hash-1.md)
   * [Stable Matching](compsci/algorithms/stable-matching.md)
   * [RSA Encryption](compsci/algorithms/rsa-encryption.md)
-* [Complex Numbers](compsci/complex-numbers.md)
 
 ## Personal Development
 
