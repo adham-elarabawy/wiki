@@ -8,6 +8,7 @@
 * [System Analysis](engineering/system-analysis/README.md)
   * [Gram-Schmidt Orthonormalization](engineering/system-analysis/orthonormalization.md)
   * [Controllability](engineering/system-analysis/controllability.md)
+  * [Minimum Energy Control](engineering/system-analysis/minimum-energy-control.md)
   * [Principal Component Analysis](engineering/system-analysis/principal-component-analysis.md)
   * [System ID](engineering/system-analysis/system-id.md)
   * [Phasors](engineering/system-analysis/phasors.md)
