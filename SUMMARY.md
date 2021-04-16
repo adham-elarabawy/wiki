@@ -14,6 +14,7 @@
   * [Phasors](engineering/system-analysis/phasors.md)
   * [Stability](engineering/system-analysis/stability.md)
   * [Least Squares](engineering/system-analysis/least-squares.md)
+  * [Moore-Penrose Pseudoinverse](engineering/system-analysis/moore-penrose-pseudoinverse.md)
   * [General Differential Equations](engineering/system-analysis/general-differential-equations.md)
   * [Diagonalization / Decoupling](engineering/system-analysis/diagonalization-decoupling.md)
   * [Upper Triangulation](engineering/system-analysis/upper-triangulation.md)
@@ -75,6 +76,8 @@
 
 * [Books](personal-development/books/README.md)
   * [The Trial \(Kafka\)](personal-development/books/the-trial-kafka.md)
+* [Thoughts](personal-development/thoughts/README.md)
+  * [Mental Sustainability](personal-development/thoughts/mental-sustainability.md)
 * [Music](personal-development/music/README.md)
   * [Childish Gambino](personal-development/music/childish-gambino.md)
   * [Smino](personal-development/music/smino.md)
