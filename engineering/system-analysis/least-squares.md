@@ -16,6 +16,14 @@ Each element in $$\vec{b}$$represents the solution \(with noise/error\) for each
 
 The $$\vec{x}$$vector is the _approximate_ solution to the system that will minimize the error of $$A \cdot \vec{x}$$ and $$\vec{b}$$. 
 
+### Computation
+
+If the [Singular Value Decomposition](singular-value-decomposition.md) is already computed, then it is more efficient to compute the least squares solution using the [Moore-Penrose Pseudoinverse](moore-penrose-pseudoinverse.md), since it doesn't require the computation of expensive inverse operations on large matrices \(due to the convenient nature of unitary matrices U & V\). Rather, you can compute the least squares solution using:
+
+$$
+\tilde{x} = \tilde{V}\tilde{\Sigma}^{-1}\tilde{U}^*\vec{b}
+$$
+
 ### Limitations
 
 As you can see, the computation of the $$\vec{x}$$vector is dependent on us being able to compute the $$(A^T \cdot A)^{-1}$$term, which means that $$(A^T \cdot A)$$must be invertible. 
