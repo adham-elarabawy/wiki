@@ -10,12 +10,13 @@
   * [Frobenius Norm](engineering/system-analysis/frobenius-norm.md)
   * [Controllability](engineering/system-analysis/controllability.md)
   * [Minimum Energy Control](engineering/system-analysis/minimum-energy-control.md)
+  * [Singular Value Decomposition](engineering/system-analysis/singular-value-decomposition.md)
   * [Principal Component Analysis](engineering/system-analysis/principal-component-analysis.md)
+  * [Moore-Penrose Pseudoinverse](engineering/system-analysis/moore-penrose-pseudoinverse.md)
   * [System ID](engineering/system-analysis/system-id.md)
   * [Phasors](engineering/system-analysis/phasors.md)
   * [Stability](engineering/system-analysis/stability.md)
   * [Least Squares](engineering/system-analysis/least-squares.md)
-  * [Moore-Penrose Pseudoinverse](engineering/system-analysis/moore-penrose-pseudoinverse.md)
   * [General Differential Equations](engineering/system-analysis/general-differential-equations.md)
   * [Diagonalization / Eigendecomposition](engineering/system-analysis/diagonalization-decoupling.md)
   * [Upper Triangulation](engineering/system-analysis/upper-triangulation.md)
@@ -62,6 +63,7 @@
 ## Computer Science <a id="compsci"></a>
 
 * [Intro](compsci/intro.md)
+* [Computability Notation](compsci/computability-notation.md)
 * [CS Theory](compsci/cs-theory/README.md)
   * [Computability](compsci/cs-theory/computability.md)
 * [Graph Theory](compsci/graph-theory.md)
