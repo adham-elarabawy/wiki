@@ -16,7 +16,7 @@
   * [Least Squares](engineering/system-analysis/least-squares.md)
   * [Moore-Penrose Pseudoinverse](engineering/system-analysis/moore-penrose-pseudoinverse.md)
   * [General Differential Equations](engineering/system-analysis/general-differential-equations.md)
-  * [Diagonalization / Decoupling](engineering/system-analysis/diagonalization-decoupling.md)
+  * [Diagonalization / Eigendecomposition](engineering/system-analysis/diagonalization-decoupling.md)
   * [Upper Triangulation](engineering/system-analysis/upper-triangulation.md)
 * [Tools](engineering/tools/README.md)
   * [Anaconda](engineering/tools/anaconda.md)
