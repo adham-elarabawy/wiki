@@ -7,6 +7,7 @@
 * [Intro](engineering/intro.md)
 * [System Analysis](engineering/system-analysis/README.md)
   * [Gram-Schmidt Orthonormalization](engineering/system-analysis/orthonormalization.md)
+  * [Frobenius Norm](engineering/system-analysis/frobenius-norm.md)
   * [Controllability](engineering/system-analysis/controllability.md)
   * [Minimum Energy Control](engineering/system-analysis/minimum-energy-control.md)
   * [Principal Component Analysis](engineering/system-analysis/principal-component-analysis.md)
