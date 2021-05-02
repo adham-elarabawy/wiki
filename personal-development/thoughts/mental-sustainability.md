@@ -1,2 +1,0 @@
-# Mental Sustainability
-
