@@ -14,3 +14,28 @@ Normalization is a simple rescaling of the data from the original range so that 
 
 This question boils down to why we even need to think about activation functions. Why can't we just feed in the _raw_ output of the previous layer into the current layer? Well, a perceptron \(neuron\) is simply an abstraction of a linear computation: `some value * weight + bias` . No matter how many layers we have, if they are all linear in nature, the final activation function of the last layer is nothing but a linear function of the input of the first layer. AKA, if we just have multiple layers of linear functions, they can be replaced with a single layer that does the exact same thing. Thus, we need to add a nonlinear activation function to each perceptron in order to allow the model to scale complexity.
 
+
+
+$$
+u_L[n] = u_L^{OL} + \frac{k_L}{\theta_L}\delta[n]
+$$
+
+$$
+u_R[n] = u_R^{OL} + \frac{k_R}{\theta_R}\delta[n]
+$$
+
+$$
+\delta[n]_{straight}= d_L[n] - d_R[n]
+$$
+
+$$
+\delta[n]_{turn} = f(r, v^*, l, n)
+$$
+
+$$
+\newline
+\delta[n]_{turn} = \frac{v^*n}{r}\cdot(r+\frac{l}{2}) - \frac{v^*n}{r}\cdot(r-\frac{l}{2})
+$$
+
+
+
