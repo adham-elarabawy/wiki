@@ -17,11 +17,11 @@ This question boils down to why we even need to think about activation functions
 
 
 $$
-u_L[n] = u_L^{OL} + \frac{k_L}{\theta_L}\delta[n]
+u_L[n] = \frac{v^* + \beta_L}{\theta_L} - \frac{k_L}{\theta_L}\delta[n]
 $$
 
 $$
-u_R[n] = u_R^{OL} + \frac{k_R}{\theta_R}\delta[n]
+u_R[n] = \frac{v^* + \beta_R}{\theta_R} + \frac{k_R}{\theta_R}\delta[n]
 $$
 
 $$

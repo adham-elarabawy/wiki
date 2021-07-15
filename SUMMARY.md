@@ -52,12 +52,15 @@
   * [Backward Propagation](machine-learning/neural-networks/backward-propagation.md)
   * [Gradient Descent](machine-learning/neural-networks/gradient-descent.md)
   * [Optimizers](machine-learning/neural-networks/optimizers.md)
+* [Deep Sequence Modeling](machine-learning/deep-sequence-modeling/README.md)
+  * [Recurrent Neural Networks](machine-learning/deep-sequence-modeling/recurrent-neural-networks.md)
 * [Convolutional Neural Networks](machine-learning/convolutional-neural-networks/README.md)
   * [Convolutions](machine-learning/convolutional-neural-networks/convolutions.md)
   * [Max Pooling](machine-learning/convolutional-neural-networks/max-pooling.md)
 * [Softmax](machine-learning/softmax.md)
 * [Cross Entropy Loss](machine-learning/cross-entropy-loss.md)
 * [Autoencoders](machine-learning/autoencoders.md)
+* [Feedforward Neural Network](machine-learning/feedforward-neural-network.md)
 * [Cool Intuition](machine-learning/cool-intuition.md)
 
 ## Computer Science <a id="compsci"></a>
