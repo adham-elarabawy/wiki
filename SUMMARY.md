@@ -81,6 +81,7 @@
 ## Personal Development
 
 * [Books](personal-development/books/README.md)
+  * [Book List](personal-development/books/book-list.md)
   * [Beyond Good & Evil](personal-development/books/beyond-good-and-evil.md)
   * [The Trial \(Kafka\)](personal-development/books/the-trial-kafka.md)
 * [Music](personal-development/music/README.md)
