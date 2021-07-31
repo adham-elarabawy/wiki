@@ -33,6 +33,8 @@
 * [Applied](engineering/applied/README.md)
   * [Trilateration & GPS](engineering/applied/trilateration-and-gps.md)
 * [Complex Numbers](engineering/complex-numbers.md)
+* [MRI](engineering/mri/README.md)
+  * [Compressed Sensing](engineering/mri/compressed-sensing.md)
 
 ## Machine Learning
 
@@ -60,7 +62,6 @@
 * [Softmax](machine-learning/softmax.md)
 * [Cross Entropy Loss](machine-learning/cross-entropy-loss.md)
 * [Autoencoders](machine-learning/autoencoders.md)
-* [Feedforward Neural Network](machine-learning/feedforward-neural-network.md)
 * [Cool Intuition](machine-learning/cool-intuition.md)
 
 ## Computer Science <a id="compsci"></a>
