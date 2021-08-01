@@ -69,7 +69,7 @@ $$
 
 We can now simulate our detected signal and come to a few profound conclusions:
 
-![](../../.gitbook/assets/image%20%2831%29.png)
+![](../../.gitbook/assets/image%20%2832%29.png)
 
 We know our detected signal is sinusoidal -- the true insight comes from the[ Larmor Equation](./#the-larmor-equation):
 
@@ -98,7 +98,7 @@ In reality, there are many, _many_ nuclei being affected by this MRI procedure. 
 
 Since each precessing nuclei also imposes a changing magnetic field on the nuclei around it, the spins eventually fall out of sync, which slowly decays the signal output since they become dephased. This is demonstrated by the _Free Induction Decay \(FID\)_ plot:
 
-![Free Induction Decay \(FID\)](../../.gitbook/assets/image%20%2837%29.png)
+![Free Induction Decay \(FID\)](../../.gitbook/assets/image%20%2839%29.png)
 
 The differing rates of decay can be used \(alongside a threshold\) to differentiate between different types of tissue. The quicker the signal decays \(and the shorter the T2 duration\), the quicker the spins fall out of phase. If we transition into the rotating frame \(setting $$\omega=0$$to better observe the decay rates\), we can arrive at the following modified FID:
 
@@ -106,7 +106,7 @@ The differing rates of decay can be used \(alongside a threshold\) to differenti
 
 The _Echo Time_ is the amount of time we wait to scan the image after we perform [step 2 of our MRI procedure](./#nuclear-magnetic-resonance-nmr) \(knocking the spins out of alignment with the B field, causing them to precess\). This is a threshold set by the MRI technician to maximize contrast between tissues. This type of imaging \(where the echo time is set to some threshold to maximize tissue contrast\) is called a _T2 Weighted Image_:
 
-![T2 Weighted Image](../../.gitbook/assets/image%20%2834%29.png)
+![T2 Weighted Image](../../.gitbook/assets/image%20%2835%29.png)
 
 ### Spin Density Image
 
@@ -118,13 +118,13 @@ Additionally, this plot seems to indicate that there are certain thresholds that
 
 If we set our _echo time_ to $$0$$, the $$e^{-0/T_2}$$term goes to 1, and we are simply measuring the number of protons in each tissue. The output of this type of imaging \(with echo time= $$0$$\) is called a Spin Density Image:
 
-![Spin Density Image](../../.gitbook/assets/image%20%2832%29.png)
+![Spin Density Image](../../.gitbook/assets/image%20%2833%29.png)
 
 ### T1 Relaxation
 
 At this point in time, we can assume that the protons have been completely dephased \(all out of alignment\), which corresponds to the signals converging to 0 on the FID plots above. They then re-align with the magnetic field $$\vec B$$, in a process called T1 Relaxation.
 
-![](../../.gitbook/assets/image%20%2835%29.png)
+![](../../.gitbook/assets/image%20%2836%29.png)
 
 $$
 M(t) = M_0(1 - e^{-t/T_1})
@@ -136,11 +136,38 @@ $$
 
 As the spins align with the magnetic field, they converge on to the sample's _Boltzmann Magnetization._ The rate at which they converge back to the Boltzmann Magnetization is determined by the nuclei's $$T_1$$parameter, which is another factor used to contrast differing tissues in the imaging process.
 
+The _Repetition Time \(TR\)_ is a threshold set by the MRI technician to maximize the tissue contrast due to the varying $$T_1$$ for each incoming signal. This is analogous to _Echo Time \(TE\),_ but for T1 Relaxation as opposed to T2 Relaxation.
+
+The longer the $$T_1$$duration is for a given nuclei \(and thus a tissue\), the slower the corresponding signal converges back onto the Boltzmann Magnetization, and the darker the tissue appears in a $$T_1$$weighted image:
+
+![T1 Weighted Image](../../.gitbook/assets/image%20%2838%29.png)
+
+### The Complete NMR Experiment
+
+The $$\text{Total Magnetization Vector } M(t)$$can be intuitively broken apart into its two components, which are very well described by the $$T_1 \& T_2$$parameters previously explained.
+
+$$
+\text{Longitudinal [z]}: M(t) = M_0(1-e^{-t/T_1})\newline
+\text{Transverse [x, y]}: M(t) = M_0e^{-t/T_2}
+$$
+
+{% embed url="http://www.giphy.com/gifs/BZpLtnHaBMfl1TrRCw" %}
+
+#### Point of Confusion + My Reasoning:
+
+> In the video @ 27:48, it is stated that we can only really measure the Transverse component \(since that is the only component delivering a detectable signal to the RF coils\). This was a point of confusion for me, until I focused a bit on what the actual signal is composed of, and realized that the signal is a function of a changing magnetic flux through the coil -- via Lenz's Law. 
+>
+> If I understand correctly, as the spins realign, they are constructively building the sample's overall magnetization collectively in a capacitor-like fashion. The accumulated magnetization is due to all of the protons pointing in the same direction \(also in the same direction as the $$\vec B$$field as shown in the image below\). However, their accumulated magnetization \(Boltzmann Magnetization\) should theoretically not be creating a trivial signal through the RF coils? My understanding is that since the spins start off out of sync \(from T2\), the RF coils would read a low indistinguishable signal since the rate of change of the magnetic flux is convoluted due to all of the spins being out of phase. As they realign with the magnetic field, they individually produce less and less magnetic flux through the RF coils, which means that the rate of change of magnetic flux is also going down -- AKA the generated signal due to Lenz's Law is also quite small and indistinguishable. So how exactly do we measure the T1 Relaxation period and use it to generate contrast?
+
+![](../../.gitbook/assets/image%20%2831%29.png)
+
+
+
 ### 
 
 
 
-
+### Sources
 
 {% embed url="https://www.youtube.com/watch?v=TQegSF4ZiIQ&ab\_channel=thePIRL" %}
 
