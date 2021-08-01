@@ -39,7 +39,7 @@
   * [Op-Amps](engineering/circuits/op-amps.md)
 * [Applied](engineering/applied/README.md)
   * [Trilateration & GPS](engineering/applied/trilateration-and-gps.md)
-* [Magnetic Resonance Imaging](engineering/magnetic-resonance-imaging/README.md)
+* [Magnetic Resonance Imaging \(MRI\)](engineering/magnetic-resonance-imaging/README.md)
   * [Compressed Sensing MRI](engineering/magnetic-resonance-imaging/compressed-sensing.md)
 
 ## Machine Learning

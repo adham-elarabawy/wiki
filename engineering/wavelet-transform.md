@@ -12,7 +12,7 @@ The short term fourier transform gives us a time-frequency representation of our
 
 
 
-![Example of STFT Window](../.gitbook/assets/image%20%2822%29.png)
+![Example of STFT Window](../.gitbook/assets/image%20%2828%29.png)
 
 The STFT is a trivial extension of the Fourier Transform mathematically:
 
@@ -28,7 +28,7 @@ The limitations of the STFT are relatively intuitive:
 
 This transform results in analyzing a signal into different frequencies at different resolutions -- multiresolution analysis.
 
-![](../.gitbook/assets/image%20%2821%29.png)
+![](../.gitbook/assets/image%20%2827%29.png)
 
 
 
