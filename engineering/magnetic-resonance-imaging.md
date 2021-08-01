@@ -87,8 +87,9 @@ Technically, a particle can only stably exist in one of two states: spin-up & sp
 ### Detected Signal
 
 $$
-S(t) =N \sin(\theta)\gamma B \cos(\omega t) e^{-t/T_2}\newline \text{where} \newline
-N: \text{number of spins}
+S(t) =N_{tot} P \sin(\theta)\gamma B \cos(\omega t) e^{-t/T_2}\newline \text{where} \newline
+N_{tot}: \text{number of spins}
+\newline P: \text{polarization} = \frac{N_\uparrow - N_\downarrow}{N_\uparrow + N_\downarrow}
 \newline \theta: \text{flip angle}
 $$
 
@@ -187,7 +188,7 @@ S(TR, TE) = M_0(1-e^{-TR/T_1}) e^{-TE/T_2}
 $$
 
 1. Given all of our samples' given $$T_1$$, we pick a $$TR$$
-   * This dictates how much longitudinal magnetization gets converted into transverse magnetization after a 90 degree spin flip \(pulse from RF coil\).
+   * This dictates how much longitudinal magnetization we accumulate which then gets converted into transverse magnetization after a 90 degree spin flip \(pulse from RF coil\).
    * The choice of$$TR$$dictates how much signal each tissue begins its $$T_2$$decay with.
 2. We send a pulse from the RF coil into the tissue, which converts the longitudinal magnetization into transverse magnetization.
    * Each tissue's signal reading decays per the tissue's respective $$T_2$$rate.
@@ -199,6 +200,19 @@ $$
 1. If we choose our $$TR $$to be much longer than $$T_1$$ and a $$TE$$ very close to our $$T_2$$, then our signal equation is $$T_2$$weighted.
 2. If we choose our $$TR $$to be very close to our $$T_1$$ and a $$TE$$ much smaller than $$T_2$$, then our signal equation is $$T_1$$weighted.
 3. If we choose our $$TR $$to be much longer than $$T_1$$ and a $$TE$$ much smaller than $$T_2$$, then our signal is a $$\text{Spin Density Image}$$since the only distinguishing factor between the tissues is the $$\text{Boltzmann Magnetization}$$.
+
+### Boltzmann Factor
+
+The Boltzmann factor determines what our sample's polarization is in a strong magnetic field \(such as in an MRI\).
+
+The polarization of our sample in a strong magnetic field is:
+
+$$
+\frac{\gamma \hbar B_0}{2 k T}
+\newline \space \newline\text{where}
+\newline k: \text{Boltzmann's Constant} \newline
+T: \text{Sample's temperature in Kelvin}
+$$
 
 
 
