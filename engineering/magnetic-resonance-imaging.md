@@ -33,7 +33,7 @@ _Important conclusion:_ The frequency of precession $$\omega$$is proportional to
 
 ### Mechanical Deconstruction
 
-![MRI Machine Deconstructed](../.gitbook/assets/image%20%2830%29.png)
+![MRI Machine Deconstructed](../.gitbook/assets/image%20%2831%29.png)
 
 The _large magnet_ \(purple\) that encapsulates all of the other components is responsible for establishing a _strong_ permanent magnetic field.
 
@@ -59,7 +59,7 @@ $$
 
 When the proton is knocked off-axis by the RF coils, they precess about the magnetic axis imposed by the large magnet $$B$$. Their precessing frequency  $$\omega$$matches the frequency of the magnetic flux going through a nearby coil of wire:
 
-![](../.gitbook/assets/image%20%2824%29.png)
+![](../.gitbook/assets/image%20%2825%29.png)
 
 Per Lenz's Law, this changing magnetic flux induces a voltage through the wire proportional to the rate of change of the flux. This is how we are able to detect an RF signal back!
 
@@ -69,7 +69,7 @@ $$
 
 We can now simulate our detected signal and come to a few profound conclusions:
 
-![](../.gitbook/assets/image%20%2836%29.png)
+![](../.gitbook/assets/image%20%2837%29.png)
 
 We know our detected signal is sinusoidal -- the true insight comes from the[ Larmor Equation](magnetic-resonance-imaging.md#the-larmor-equation):
 
@@ -78,7 +78,7 @@ We know our detected signal is sinusoidal -- the true insight comes from the[ La
    * Even better, increasing the magnetic field strength also increases the amplitude of our signal, due to Lenz's law's formulation around the _rate of change of magnetic flux_, which would be higher with higher frequencies.
 3. The greater the flip angle, the larger the magnitude of our detected signal, since it would impose a larger change in magnetic flux -- corresponding to a higher voltage signal.
 
-![](../.gitbook/assets/image%20%2826%29.png)
+![](../.gitbook/assets/image%20%2827%29.png)
 
 #### A brief intermission about flip angle
 
@@ -98,33 +98,33 @@ In reality, there are many, _many_ nuclei being affected by this MRI procedure. 
 
 Since each precessing nuclei also imposes a changing magnetic field on the nuclei around it, the spins eventually fall out of sync, which slowly decays the signal output since they become dephased. This is demonstrated by the _Free Induction Decay \(FID\)_ plot:
 
-![Free Induction Decay \(FID\)](../.gitbook/assets/image%20%2843%29.png)
+![Free Induction Decay \(FID\)](../.gitbook/assets/image%20%2844%29.png)
 
 The differing rates of decay can be used \(alongside a threshold\) to differentiate between different types of tissue. The quicker the signal decays \(and the shorter the T2 duration\), the quicker the spins fall out of phase. If we transition into the rotating frame \(setting $$\omega=0$$to better observe the decay rates\), we can arrive at the following modified FID:
 
-![](../.gitbook/assets/image%20%2829%29.png)
+![](../.gitbook/assets/image%20%2830%29.png)
 
 The _Echo Time_ is the amount of time we wait to scan the image after we perform [step 2 of our MRI procedure](magnetic-resonance-imaging.md#nuclear-magnetic-resonance-nmr) \(knocking the spins out of alignment with the B field, causing them to precess\). This is a threshold set by the MRI technician to maximize contrast between tissues. This type of imaging \(where the echo time is set to some threshold to maximize tissue contrast\) is called a _T2 Weighted Image_:
 
-![T2 Weighted Image](../.gitbook/assets/image%20%2839%29.png)
+![T2 Weighted Image](../.gitbook/assets/image%20%2840%29.png)
 
 ### Spin Density Image
 
 The above FID plot simplifies the thresholding by assuming that all the signals have the same starting amplitude -- which is a false assumption since each type of tissue has varying densities of hydrogen atoms \(and thus protons\). A more accurate FID plot that captures the true nuance behind the selection of the echo time threshold is shown below. 
 
-![A more accurate FID plot](../.gitbook/assets/image%20%2833%29.png)
+![A more accurate FID plot](../.gitbook/assets/image%20%2834%29.png)
 
 Additionally, this plot seems to indicate that there are certain thresholds that would make our signals indistinguishable \(when the signal amplitudes cross each other\). The reason for this quick aside is to note that in some cases \(such as below\), the quicker we detect the signal, the better of a signal we actually get -- which isn't represented in the initial FID plot above.
 
 If we set our _echo time_ to $$0$$, the $$e^{-0/T_2}$$term goes to 1, and we are simply measuring the number of protons in each tissue. The output of this type of imaging \(with echo time= $$0$$\) is called a Spin Density Image:
 
-![Spin Density Image](../.gitbook/assets/image%20%2837%29.png)
+![Spin Density Image](../.gitbook/assets/image%20%2838%29.png)
 
 ### T1 Relaxation
 
 At this point in time, we can assume that the protons have been completely dephased \(all out of alignment\), which corresponds to the signals converging to 0 on the FID plots above. They then re-align with the magnetic field $$\vec B$$, in a process called T1 Relaxation.
 
-![](../.gitbook/assets/image%20%2840%29.png)
+![](../.gitbook/assets/image%20%2841%29.png)
 
 $$
 M(t) = M_0(1 - e^{-t/T_1})
@@ -140,7 +140,7 @@ The _Repetition Time \(TR\)_ is a threshold set by the MRI technician to maximiz
 
 The longer the $$T_1$$duration is for a given nuclei \(and thus a tissue\), the slower the corresponding signal converges back onto the Boltzmann Magnetization, and the darker the tissue appears in a $$T_1$$weighted image:
 
-![T1 Weighted Image](../.gitbook/assets/image%20%2842%29.png)
+![T1 Weighted Image](../.gitbook/assets/image%20%2843%29.png)
 
 ### The Complete NMR Experiment
 
@@ -159,7 +159,7 @@ $$
 >
 > If I understand correctly, as the spins realign, they are constructively building the sample's overall magnetization collectively in a capacitor-like fashion. The accumulated magnetization is due to all of the protons pointing in the same direction \(also in the same direction as the $$\vec B$$field as shown in the image below\). However, their accumulated magnetization \(Boltzmann Magnetization\) should theoretically not be creating a trivial signal through the RF coils? My understanding is that since the spins start off out of sync \(from T2\), the RF coils would read a low indistinguishable signal since the rate of change of the magnetic flux is convoluted due to all of the spins being out of phase. As they realign with the magnetic field, they individually produce less and less magnetic flux through the RF coils due to their reduced spin angle \(thus producing less magnetic flux in the first place\), which means that the rate of change of magnetic flux is also going down -- AKA the generated signal due to Lenz's Law is also quite small and indistinguishable. So how exactly do we measure the T1 Relaxation period and use it to generate contrast?
 
-![](../.gitbook/assets/image%20%2834%29.png)
+![](../.gitbook/assets/image%20%2835%29.png)
 
 The longitudinal magnetization is the magnetization in the direction of the original $$\vec B$$field. The transverse magnetization is the magnetization in the direction orthogonal to the RF Coils \(orthogonal to the longitudinal magnetization\). Therefore, the only detectable signal we can obtain is from the transverse magnetization, since that is what produces the magnetic flux _through_ the RF coil.
 
