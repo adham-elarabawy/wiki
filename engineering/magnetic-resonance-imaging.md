@@ -224,7 +224,7 @@ I won't bother with explaining it here -- the video does a much better job than 
 
 ![Spin Echo Diagram](../.gitbook/assets/image%20%2818%29.png)
 
-Due to external field inhomogeneity, the actual signal decays much faster than we expect from T2 Relaxation. The signal actually decays so much faster that it makes the T2 Relaxation decay difference between tissues almost indistinguishable. As a result, we 
+Due to external field inhomogeneity, the actual signal decays much faster than we expect from T2 Relaxation. The signal actually decays so much faster that it makes the T2 Relaxation decay difference between tissues almost indistinguishable. As a result, we get another sample from the t2 decay.
 
 ### 
 
