@@ -20,7 +20,7 @@ The inner product of two functions tells you how aligned both of the functions a
 
 #### Derivation
 
-![Discretized example with significant deltaX](../.gitbook/assets/image%20%2829%29.png)
+![Discretized example with significant deltaX](../.gitbook/assets/image%20%2830%29.png)
 
 $$
 <f, g> = g^*f = \sum_{k=1}^nf_k\bar g_k \newline

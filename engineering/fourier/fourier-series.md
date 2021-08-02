@@ -18,7 +18,7 @@ f(x) = \frac{A_0}{2} + \sum_{k=1}^{\infty}{(A_k \cos(\frac{2\pi kx}{L}) + B_k\si
 \newline L: \text{length of segment of input function}
 $$
 
-![](../../.gitbook/assets/image%20%2818%29.png)
+![](../../.gitbook/assets/image%20%2819%29.png)
 
 ### How do we get the Fourier Coefficients \($$A_k$$& $$B_k$$\)?
 
