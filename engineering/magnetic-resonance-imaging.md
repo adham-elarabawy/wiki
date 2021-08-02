@@ -205,7 +205,7 @@ $$
 
 The Boltzmann factor determines what our sample's polarization is in a strong magnetic field \(such as in an MRI\).
 
-The polarization of our sample in a strong magnetic field is:
+The polarization of our sample in a strong magnetic field in Boltzmann equilibrium is:
 
 $$
 \frac{\gamma \hbar B_0}{2 k T}
@@ -214,7 +214,13 @@ $$
 T: \text{Sample's temperature in Kelvin}
 $$
 
+### Spin Echo EUREKA!
 
+Ok the spin echo explanation in the second video \(listen in [Sources](magnetic-resonance-imaging.md#sources)\) genuinely blew my mind. Here is me explaining it to myself once it finally clicked:
+
+{% file src="../.gitbook/assets/spin-echo-eureka.m4a" caption="EUREKA MOMENT!" %}
+
+I won't bother with explaining it here -- the video does a much better job than I ever could. But here is a mild overview:
 
 ### 
 
