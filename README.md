@@ -1,16 +1,27 @@
+---
+description: A landing page for my wiki
+---
+
 # Adham's Wiki
 
-Personal library for data science and analysis using python3 and javascript.
+![](.gitbook/assets/banner.png)
 
---The regression folder has my personal base templates for rudimentary linear/polynomial regression in python.
+Relevant Links: [portfolio website](www.adham-e.dev), [linkedin](https://www.linkedin.com/in/adham-elarabawy/), [youtube channel](https://www.youtube.com/c/AdhamElarabawy)
 
-\*This repository is a combination of my own work and code I wrote through the aid of online resources. I do not claim full credit for all work in this repository, nor do I actively support or maintain it. Anyone is free to use it, but I suggest using it as a base outline rather than a product, as that is what I created it for.
+This wiki acts as a culmination of my formalized notes for:
 
-## Demos
+* classes
+* projects
+* anything I find to be documentation-worthy along the way
 
-Bezier Curves of N order \(js\) ![](.gitbook/assets/bezier.gif)
+Here is the current mapping between section notes and their topics of interest:
 
-Particle Playground \(py\) ![](.gitbook/assets/particle_playground.gif)
+| Section | Source | Description |
+| :--- | :--- | :--- |
+| [Engineering](https://adhamelarabawy.gitbook.io/wiki/engineering/intro) | [EECS16A](https://eecs16a.org/), [EECS16B](https://eecs16b.org/) | General EE + system analysis techniques |
+| [Machine Learning](https://adhamelarabawy.gitbook.io/wiki/machine-learning/resources) | [MLAB](https://ml.berkeley.edu/) | From bare-bones classical ML to Deep Neural Nets |
+| [Computer Science](https://adhamelarabawy.gitbook.io/wiki/compsci/) | [CS61A](https://cs61a.org/), [CS61B](https://sp21.datastructur.es/) | Python, Java, Git |
+| Math | [Discrete Mathematics](https://www.eecs70.org/) | Calculus, DiffEq, Discrete Mathematics, Probability Theory |
 
-Dynamic Gradient Descent \(py\) ![](.gitbook/assets/gradient_descent.gif)
+
 
