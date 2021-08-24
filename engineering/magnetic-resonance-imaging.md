@@ -78,7 +78,7 @@ We know our detected signal is sinusoidal -- the true insight comes from the[ La
    * Even better, increasing the magnetic field strength also increases the amplitude of our signal, due to Lenz's law's formulation around the _rate of change of magnetic flux_, which would be higher with higher frequencies.
 3. The greater the flip angle, the larger the magnitude of our detected signal, since it would impose a larger change in magnetic flux -- corresponding to a higher voltage signal.
 
-![](../.gitbook/assets/image%20%2828%29%20%281%29.png)
+![](../.gitbook/assets/image%20%2828%29%20%281%29%20%281%29.png)
 
 #### A brief intermission about flip angle
 

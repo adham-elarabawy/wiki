@@ -72,6 +72,7 @@
 ## Computer Science <a id="compsci"></a>
 
 * [Intro](compsci/intro.md)
+* [Probability](compsci/probability-1.md)
 * [Computability Notation](compsci/computability-notation.md)
 * [CS Theory](compsci/cs-theory/README.md)
   * [Computability](compsci/cs-theory/computability.md)

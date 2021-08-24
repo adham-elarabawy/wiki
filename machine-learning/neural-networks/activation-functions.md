@@ -27,7 +27,7 @@ $$
 A(x) = max(0, x)
 $$
 
-![](../../.gitbook/assets/image%20%288%29.png)
+![](../../.gitbook/assets/image%20%288%29%20%281%29.png)
 
 
 
