@@ -99,9 +99,5 @@ They used PnP ADMM from \(2\) with $$f$$ as the CNN-based denoiser described pre
 
 ![](../.gitbook/assets/image%20%2821%29.png)
 
-
-
-
-
-
+A good explanation of various similarity metrics \(pSNR, SSIM, etc\) can be found here: [https://medium.com/@datamonsters/a-quick-overview-of-methods-to-measure-the-similarity-between-images-f907166694ee](https://medium.com/@datamonsters/a-quick-overview-of-methods-to-measure-the-similarity-between-images-f907166694ee)
 
