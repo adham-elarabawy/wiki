@@ -97,3 +97,7 @@
   * [Smino](personal-development/music/smino.md)
   * [MF Doom](personal-development/music/mf-doom.md)
 
+## Papers
+
+* [PnP Methods for MRI](papers/pnp-methods-for-mri.md)
+
