@@ -14,6 +14,20 @@ Normalization is a simple rescaling of the data from the original range so that 
 
 This question boils down to why we even need to think about activation functions. Why can't we just feed in the _raw_ output of the previous layer into the current layer? Well, a perceptron \(neuron\) is simply an abstraction of a linear computation: `some value * weight + bias` . No matter how many layers we have, if they are all linear in nature, the final activation function of the last layer is nothing but a linear function of the input of the first layer. AKA, if we just have multiple layers of linear functions, they can be replaced with a single layer that does the exact same thing. Thus, we need to add a nonlinear activation function to each perceptron in order to allow the model to scale complexity.
 
+### Why can fully convolutional models accept variable input dimensions? Why can't any model with dense layers?
+
+The reason is that when using a convolutional layer, you select the size of the _filter kernels_, which are independent of the image/layer input size \(provided that images smaller than the kernels are padded appropriately\).
+
+When using a dense layer, you specify the size of the layer itself and the resulting weight matrix is a function of both the size of the dense layer and the upstream layer. This is because each neuron in the upstream layer makes a connection to each neuron in the dense layer. So, if you have 50 neurons in the upstream layer and 20 neurons in the dense layer, then the weight matrix has 50×20=100050×20=1000 values. Those weights are what get determined during the training phase, and so those layer sizes are fixed.
+
+Now, the output of a CNN layer is a number of images/tensors \(specified by the number of filters chosen\), whose size is determined by the kernel size and any padding option chosen. If those are fed into a dense layer, then that fixes the the size that those images can be \(because of the reason given in the previous paragraph\).
+
+On the other hand, if no dense layer is used in the whole network, then the input to the first CNN layer can be any size because the weights are just the individual parameters of the filter kernels, and the filter kernels remain the same size regardless of the input tensor size.
+
+![](../.gitbook/assets/1_fw-ehcnbr9byhtho-rxbtw.gif)
+
+### Some useful equations:
+
 
 
 $$
