@@ -85,6 +85,7 @@
   * [SHA-1 \(Secure Hash 1\)](compsci/algorithms/sha-1-secure-hash-1.md)
   * [Stable Matching](compsci/algorithms/stable-matching.md)
   * [RSA Encryption](compsci/algorithms/rsa-encryption.md)
+* [Scratch Paper](compsci/scratch-paper.md)
 
 ## Personal Development
 
