@@ -2,7 +2,7 @@
 
 ### What is PyTorch?
 
-{% embed url="https://pytorch.org/tutorials/beginner/deep\_learning\_60min\_blitz.html" %}
+{% embed url="https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html" %}
 
 PyTorch serves two purposes:
 
@@ -16,7 +16,7 @@ conda install pytorch torchvision -c pytorch
 pip install torchvision
 ```
 
-### Simple \(Shallow\) Model
+### Simple (Shallow) Model
 
 ```python
 class Model(nn.Module):
@@ -103,7 +103,5 @@ loaded_model = Model()
 loaded_model.load_state_dict(torch.load("./weights"))
 ```
 
-### 
-
-
+###
 
